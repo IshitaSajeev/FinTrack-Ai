@@ -10,13 +10,15 @@ FinTrack AI is a sophisticated personal finance application that bridges the gap
  -  Premium UI/UX: A high-contrast, dark-mode dashboard built with React and Tailwind CSS, optimized for data visualization.
  -  Secure Audit Log: A detailed transaction history view with dynamic category labels and automatic currency formatting.
    
-
+---
 
 ### The Machine Learning Engine
 The core of FinTrack AI is its predictive analytics module.
 - Algorithm: Ordinary Least Squares (OLS) Linear Regression.
 - Process: The system extracts EXPENSE type transactions, converts dates into ordinal values, and trains a model to identify the slope of spending.
 - Fallback Logic: Includes smart-averaging fallbacks to handle small datasets or non-linear growth, ensuring the UI always displays meaningful insights.
+
+---
 
 ### Tech Stack
 Frontend
@@ -29,6 +31,8 @@ Backend
 - Framework: Django & Django REST Framework (DRF)
 - Database: SQLite (Relational)
 - Scientific Computing: Pandas, NumPy, Scikit-Learn
+
+---
 
 ### Installation & Setup
 
@@ -56,6 +60,8 @@ npm install
 npm run dev
 ```
 
+---
+
 ### Project Structure
 ```
 ├── fintrack_backend/
@@ -68,6 +74,9 @@ npm run dev
 │   └── tailwind.config.js
 └── README.md
 ```
+
+---
+
 ### Contribution & License
 This project was built as a demonstration of bridging Data Science with Web Development. Feel free to fork, open issues, or submit pull requests!
 License: MIT
